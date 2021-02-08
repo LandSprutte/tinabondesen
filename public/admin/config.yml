@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   #name: test-repo
   branch: main
-media_folder: public/img
+media_folder: public/assets/blog
 public_folder: img
 collections:
   - name: 'posts'
