@@ -8,7 +8,6 @@ type Props = {
   coverImage: string
   date: string
   excerpt: string
-  author: Author
   slug: string
 }
 
@@ -17,7 +16,6 @@ const HeroPost = ({
   coverImage,
   date,
   excerpt,
-  author,
   slug,
 }: Props) => {
   return (
