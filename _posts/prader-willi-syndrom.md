@@ -3,7 +3,7 @@ title: PRADER-WILLI SYNDROM
 draft: false
 excerpt: Erfaringer i arbejdet med en ung gruppe patienter fra et bosted
 date: 2021-02-09 12:11
-coverImage: ""
+coverImage: /assets/blog/mum.jpg
 content: >-
   I DENNE ARTIKEL VIL JEG PRÆSENTERE EN PATIENTGRUPPE, SOM MANGE AF JER UDE PÅ
   TANDKLINIKKERNE IKKE KOMMER TIL AT STIFTE BEKENDSSKAB MED. ALLIGEVEL KAN DE
