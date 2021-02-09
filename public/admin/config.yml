@@ -30,6 +30,15 @@ collections:
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string', default: '' }
       - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'Authors',
+          search_fields: ['name', 'email'],
+          value_field: 'name',
+          display_fields: ['name', 'email'],
+        }
+      - {
           label: 'Publish Date',
           name: 'date',
           widget: 'datetime',
@@ -48,15 +57,6 @@ collections:
           name: 'content',
           widget: 'markdown',
           hint: 'Main content goes here.',
-        }
-      - {
-          label: 'Author',
-          name: 'author',
-          widget: 'relation',
-          collection: 'authors',
-          search_fields: ['name', 'email'],
-          value_field: 'name',
-          display_fields: ['name', 'email'],
         }
 
   - name: 'Authors'
