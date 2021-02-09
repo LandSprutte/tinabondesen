@@ -4,7 +4,7 @@ draft: false
 excerpt: I denne artikel vil jeg præsentere et projekt udført på Tand-mund-og
   kæbekirurgisk afdeling Aarhus universitetshospital.
 date: 2021-02-08 21:39
-coverImage: /assets/blog/mum.jpg
+coverImage: ""
 content: >
   Projektets tilsigte var Oral rehabilitering af patienter med hoved-hals canser
   efter strålebehandling.  Projektet havde til hensigt at at undersøge om man
