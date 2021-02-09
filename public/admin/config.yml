@@ -49,3 +49,25 @@ collections:
           widget: 'markdown',
           hint: 'Main content goes here.',
         }
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'authors',
+          search_fields: ['name', 'email'],
+          value_field: 'name',
+          display_fields: ['name', 'email'],
+        }
+
+  - name: 'Authors'
+    label: 'authors'
+    singular_label: 'Author'
+    description: >
+      This is a list of all the available authors in this blog
+    create: true
+    slug: '{{fields.email}}'
+    folder: '_authors'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Email', name: 'email', widget: 'string' }
+      - { label: 'Avatar', name: 'avatar', widget: 'image' }
